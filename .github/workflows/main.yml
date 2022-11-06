@@ -1,0 +1,32 @@
+name: S3 deploy with cloud front
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: Install dependencies
+        run: npm install --force
+
+      - name: Build
+        run: npm run build
+
+      - name: Deploy
+        uses: lbertenasco/s3-deploy@v1
+        with:
+          folder: build
+          bucket: ${{ secrets.DEV_AWS_S3_BUCKET }}
+          dist-id: ${{ secrets.DEV_AWS_DISTRIBUTION_ID }}
+          invalidation: / *
