@@ -10,6 +10,6 @@
 
 ## 팀원 소개
 
-|                 [김민석(Minthug)](https://github.com/minthug)                 |                 [정연우(Oscar)](https://github.com/Oscar0421)                 |                 [오우주(Space)](https://github.com/space8033)                 |                [조수완(Swan)](https://github.com/adline0618)                 |
-| :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :---------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
-| <img src="https://avatars.githubusercontent.com/u/100764819?v=4" width=150 /> | <img src="https://avatars.githubusercontent.com/u/104333720?v=4" width=150 /> | <img src="https://avatars.githubusercontent.com/u/100135735?v=4" width=150 /> | <img src="https://avatars.githubusercontent.com/u/99741801?v=4" width=150 /> |
+|                  [정연우(Oscar)](https://github.com/Oscar0421)                 |                [조수완(Swan)](https://github.com/adline0618)                 |
+| :---------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+|  <img src="https://avatars.githubusercontent.com/u/104333720?v=4" width=150 /> | <img src="https://avatars.githubusercontent.com/u/99741801?v=4" width=150 /> |
